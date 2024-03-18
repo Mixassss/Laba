@@ -14,7 +14,7 @@ int main(){
     cout << "Ширина: " << endl;
     int numStornTwo;
     cin >> numStornTwo;
-    int ploshad = numStornOne * numStornTwo;
+    ploshad = numStornOne * numStornTwo;
     cout << "Площадь = " << ploshad << endl;
     
     // Пермиетр прямоугольника
