@@ -9,16 +9,18 @@ int main()
     cout << "Введите стороны треугольника:\n"; 
  
     cout << "Сторона А = "; 
-    int sideA = 0; 
+    float sideA = 0; 
     cin >> sideA;// Ввод переменной 
  
     cout << "Сторона B = "; 
-    int sideB = 0; 
+    float sideB = 0; 
     cin >> sideB;// Ввод переменной 
  
     cout << "Сторона C = "; 
-    int sideC = 0; 
+    float sideC = 0; 
     cin >> sideC;// Ввод переменной 
+    if ((sideA + sideB > sideC) && (sideB + sideC > sideA) && (sideA + sideC > sideB)){
+        cout << "Треугольник существует" << endl;
  
     cout << "Периметр треугольника = " << sideA + sideB + sideC; 
  
@@ -39,5 +41,9 @@ int main()
  
         cout << "\nТреугольник неравнобедренный "; //2213
     } 
+    }
+    else {
+        cout << "Треугольник не существует" << endl;
+    }
  
 }
