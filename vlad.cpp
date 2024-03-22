@@ -16,7 +16,7 @@ int main() {
         cout << "Введите угол:"; 
  
         int ugol; // угол, для вычисления  
-        cin >> ugol; // ввод угла   
+        cin >> ugol; // ввод угла 1  
  
         int ugol1; // сохраняет в себе значение ugol  
         ugol1 = ugol; 
