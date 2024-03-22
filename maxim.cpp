@@ -23,7 +23,7 @@ int main(){
     cout << "Периметр = " << perimetr << endl;
     
     //  Диагональ прямоугольника
-    double diagonal;
+    double diagonal; //Изменение
     diagonal = sqrt(numStornOne * numStornOne + numStornTwo * numStornTwo);
     cout << "Диагональ = " << diagonal << endl;
     return 0;
