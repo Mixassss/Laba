@@ -25,7 +25,7 @@ int main() {
  
         float len = 2 * PI * rad; // формула длины  
         float sqr = PI * rad * rad; // формула площади   
-        float sector = (PI * rad * rad) / 360 * ugol; // формула площади сектора  
+        float sector = (PI * rad * rad) / 360 * ugol; // формула площади сектора(1)
  
         cout << "Длина окружности: " << len << "\n" << "Площадь окружности: " << sqr << "\n" << "Площадь сектора " << ugol1 << " o: " << sector << endl; 
  
